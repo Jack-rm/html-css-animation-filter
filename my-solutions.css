@@ -41,3 +41,34 @@
 .ex-5-square:active{
     transform: scale(0.5)
 }
+
+.ex-6-img:hover{
+    filter: grayscale(1)
+}
+
+.ex-7-img{
+    transition: filter 4s;
+}
+
+.ex-7-img:hover{
+    filter: hue-rotate(139deg) invert(1);
+}
+
+.ex-8-img{
+    transition: all 4s;
+}
+
+.ex-8-img:hover{
+    filter: sepia(0.7) invert(1);
+    border-radius: 20px;
+}
+
+.ex-9-img{
+    transition: all 5s;
+}
+
+.ex-9-img:hover{
+    filter: brightness(3) blur(2px);
+    border-radius: 20px;
+    transform: scale(1.5)
+}
