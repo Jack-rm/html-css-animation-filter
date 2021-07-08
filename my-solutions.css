@@ -72,3 +72,91 @@
     border-radius: 20px;
     transform: scale(1.5)
 }
+
+.ex-10-icon{
+    animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+    0%{
+        transform: rotate(1turn)
+    }
+}
+
+.ex-11-icon:hover{
+    animation: almost-rotation 2s linear;
+}
+
+@keyframes almost-rotation {
+    0%{
+        transform: rotate()
+    }
+
+    75%{
+        transform: rotate(270grad)
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: dancetop 4s linear;
+}
+
+@keyframes dancetop {
+    0%{
+        position: absolute;
+        top: -10px;
+        left: 10%;
+    }
+    25%{
+        position: absolute;
+        top: -10px;
+        left: 25%;
+    }
+    50%{
+        position: absolute;
+        top: -10px;
+        left: 35%;
+    }
+    75%{
+        position: absolute;
+        top: -10px;
+        left: 45%;
+    }
+    100%{
+        position: absolute;
+        top: -10px;
+        left: 55%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: dancebottom 4s linear;
+}
+
+@keyframes dancebottom {
+    0%{
+        position: absolute;
+        bottom: -10px;
+        right: 10%;
+    }
+    25%{
+        position: absolute;
+        bottom: -10px;
+        right: 25%;
+    }
+    50%{
+        position: absolute;
+        bottom: -10px;
+        right: 35%;
+    }
+    75%{
+        position: absolute;
+        bottom: -10px;
+        right: 45%;
+    }
+    100%{
+        position: absolute;
+        bottom: -10px;
+        right: 55%;
+    }
+}
