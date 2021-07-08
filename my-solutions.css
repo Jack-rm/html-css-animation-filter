@@ -103,27 +103,22 @@
 
 @keyframes dancetop {
     0%{
-        position: absolute;
         top: -10px;
         left: 10%;
     }
     25%{
-        position: absolute;
         top: -10px;
         left: 25%;
     }
     50%{
-        position: absolute;
         top: -10px;
         left: 35%;
     }
     75%{
-        position: absolute;
         top: -10px;
         left: 45%;
     }
     100%{
-        position: absolute;
         top: -10px;
         left: 55%;
     }
@@ -135,27 +130,22 @@
 
 @keyframes dancebottom {
     0%{
-        position: absolute;
         bottom: -10px;
         right: 10%;
     }
     25%{
-        position: absolute;
         bottom: -10px;
         right: 25%;
     }
     50%{
-        position: absolute;
         bottom: -10px;
         right: 35%;
     }
     75%{
-        position: absolute;
         bottom: -10px;
         right: 45%;
     }
     100%{
-        position: absolute;
         bottom: -10px;
         right: 55%;
     }
@@ -167,33 +157,27 @@
 
 @keyframes fulldancetop {
     0%{
-        position: absolute;
         top: -10px;
         left: 10%;
     }
     30%{
-        position: absolute;
         top: -10px;
         left: calc(100% - 30px)
     }
     45%{
-        position: absolute;
         top: 100%;
         left: calc(100% - 30px)
     }
     75%{
-        position: absolute;
         top: 100%;
         left: 0px;
     }
     90%{
-        position: absolute;
         top: -10px;
         left: -10px;
     }
 
     100%{
-        position: absolute;
         top: -10px;
         left: 10%;
     }
@@ -205,33 +189,27 @@
 
 @keyframes fulldancebottom {
     0%{
-        position: absolute;
         bottom: -10px;
         right: 10%;
     }
     30%{
-        position: absolute;
         bottom: -10px;
         right: calc(100% - 30px)
     }
     45%{
-        position: absolute;
         bottom: 100%;
         right: calc(100% - 30px)
     }
     75%{
-        position: absolute;
         bottom: 100%;
         right: 0px;
     }
     90%{
-        position: absolute;
         bottom: -10px;
         right: -10px;
     }
 
     100%{
-        position: absolute;
         bottom: -10px;
         right: 10%;
     }
