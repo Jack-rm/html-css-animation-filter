@@ -98,7 +98,7 @@
 }
 
 .ex-12-button:hover .ex-12-top-white{
-    animation: dancetop 4s linear;
+    animation: dancetop 3s linear;
 }
 
 @keyframes dancetop {
@@ -130,7 +130,7 @@
 }
 
 .ex-12-button:hover .ex-12-bottom-white{
-    animation: dancebottom 4s linear;
+    animation: dancebottom 3s linear;
 }
 
 @keyframes dancebottom {
@@ -158,5 +158,81 @@
         position: absolute;
         bottom: -10px;
         right: 55%;
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: fulldancetop 3s infinite;
+}
+
+@keyframes fulldancetop {
+    0%{
+        position: absolute;
+        top: -10px;
+        left: 10%;
+    }
+    30%{
+        position: absolute;
+        top: -10px;
+        left: calc(100% - 30px)
+    }
+    45%{
+        position: absolute;
+        top: 100%;
+        left: calc(100% - 30px)
+    }
+    75%{
+        position: absolute;
+        top: 100%;
+        left: 0px;
+    }
+    90%{
+        position: absolute;
+        top: -10px;
+        left: -10px;
+    }
+
+    100%{
+        position: absolute;
+        top: -10px;
+        left: 10%;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: fulldancebottom 3s infinite;
+}
+
+@keyframes fulldancebottom {
+    0%{
+        position: absolute;
+        bottom: -10px;
+        right: 10%;
+    }
+    30%{
+        position: absolute;
+        bottom: -10px;
+        right: calc(100% - 30px)
+    }
+    45%{
+        position: absolute;
+        bottom: 100%;
+        right: calc(100% - 30px)
+    }
+    75%{
+        position: absolute;
+        bottom: 100%;
+        right: 0px;
+    }
+    90%{
+        position: absolute;
+        bottom: -10px;
+        right: -10px;
+    }
+
+    100%{
+        position: absolute;
+        bottom: -10px;
+        right: 10%;
     }
 }
